@@ -1,0 +1,18 @@
+# NCOS734 PG4 -- Attention-Guided Neural Code Search
+# Versions below are the ones the reported results were produced with.
+# For a CPU-only torch install:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+numpy>=2.5.3
+pandas>=3.0.6
+scikit-learn>=1.9.1
+scipy>=1.18.1
+matplotlib>=3.11.2
+seaborn>=0.13.2
+tqdm>=4.70.1
+pyarrow>=25.0.1
+torch>=2.14.1
+
+# Notebook execution
+jupyter
+ipykernel

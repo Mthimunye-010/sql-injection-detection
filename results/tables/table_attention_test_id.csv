@@ -1,0 +1,8 @@
+Method,ATT_MASS_RATIONALE,ATT_LIFT,ATT_POINTING,ATT_IOU
+Static analyser -- pattern rules (semgrep/Bandit class),--,--,--,--
+Static analyser -- AST taint analysis,--,--,--,--
+TF-IDF + logistic regression,--,--,--,--
+CNN + mean pooling (no attention),--,--,--,--
+CNN + unguided attention,0.7377 ± 0.0510,2.4941 ± 0.1953,0.9119 ± 0.0318,0.5056 ± 0.0312
+CNN + attention + contrastive search head,0.6780 ± 0.0203,2.2633 ± 0.0633,0.9419 ± 0.0225,0.4337 ± 0.0459
+AGNCS (proposed): guided attention + contrastive,0.9527 ± 0.0010,3.2979 ± 0.0059,0.9964 ± 0.0030,0.9712 ± 0.0075

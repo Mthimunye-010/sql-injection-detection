@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+data/
+results/raw/
+results/models/
+Ai system/artifacts/

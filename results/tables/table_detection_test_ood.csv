@@ -1,0 +1,8 @@
+Method,F1,FPR,RECALL,PRECISION,ROC_AUC,MCC
+Static analyser -- pattern rules (semgrep/Bandit class),0.1624,0.6667,0.1473,0.1810,--,-0.5286
+Static analyser -- AST taint analysis,0.7500,0.6667,1.0000,0.6000,--,0.4472
+TF-IDF + logistic regression,0.8286 ± 0.0112,0.3488 ± 0.0346,0.9537 ± 0.0023,0.7326 ± 0.0188,0.9300 ± 0.0017,0.6349 ± 0.0260
+CNN + mean pooling (no attention),0.7142 ± 0.0234,0.0785 ± 0.0367,0.5992 ± 0.0303,0.8860 ± 0.0446,0.7880 ± 0.0514,0.5510 ± 0.0436
+CNN + unguided attention,0.6416 ± 0.0228,0.7933 ± 0.0981,0.8470 ± 0.0520,0.5172 ± 0.0238,0.5669 ± 0.0486,0.0633 ± 0.1048
+CNN + attention + contrastive search head,0.5361 ± 0.1396,0.9083 ± 0.0996,0.7223 ± 0.2706,0.4315 ± 0.0763,0.3700 ± 0.1200,-0.2349 ± 0.1426
+AGNCS (proposed): guided attention + contrastive,0.6000 ± 0.0492,0.3252 ± 0.0195,0.5692 ± 0.0619,0.6353 ± 0.0338,0.5946 ± 0.0246,0.2453 ± 0.0708

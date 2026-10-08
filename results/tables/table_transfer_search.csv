@@ -1,0 +1,5 @@
+method,vuln_p@1,vuln_p@5,vuln_p@10,vuln_mrr
+CNN + mean pooling (no attention),0.634,0.6306,0.6314,0.6437
+CNN + unguided attention,0.754,0.7398,0.7223,0.7685
+CNN + attention + contrastive search head,0.952,0.9486,0.9478,0.9542
+AGNCS (proposed): guided attention + contrastive,0.66,0.6548,0.6599,0.6698
